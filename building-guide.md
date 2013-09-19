@@ -1,6 +1,5 @@
 
-I. INTRODUCTION
-=================================
+# 1. INTRODUCTION
 
 This document introduces step-by-step instructions to build Firefox OS for APC 8950.
 
@@ -17,14 +16,13 @@ Building process follows official building guidelines for Firefox OS, which can 
 * https://developer.mozilla.org/en-US/docs/Mozilla/Firefox_OS/Building
 
 
-II. BUILDING STEPS
-=================================
+# 2. BUILDING STEPS
 
-## II.1. PREPARE FOR YOUR FIRST BUILD
+## 2.1. PREPARE FOR YOUR FIRST BUILD
 
 Assume that we already setup the build environment, below are the steps:
 
-### II.1.1. CLONE B2G REPOSITORY
+### 2.1.1. CLONE B2G REPOSITORY
 
 The very first step, before you can start your first build, is to clone the B2G repository. This
 will not fetch everything, but only the B2G build system and setup utilities.
@@ -41,7 +39,7 @@ Switch to device specific branch:
 
 	$ git checkout apc8950
 
-### II.1.2.  CONFIGURE B2G FOR YOUR DEVICE
+### 2.1.2.  CONFIGURE B2G FOR YOUR DEVICE
 
 Once you've retrieved the core B2G build system, you need to configure it for
 the device on which you plan to install it.
@@ -53,7 +51,7 @@ Run the following command for this purpose:
 For more details on using config.sh, see:
 * https://developer.mozilla.org/en-US/docs/Mozilla/Firefox_OS/Preparing_for_your_first_B2G_build#Configuring_B2G_for_your_device
 
-## II.2. START THE BUILD
+## 2.2. START THE BUILD
 
 To start building, run:
 
@@ -63,10 +61,9 @@ For more details about building process, see:
 * https://developer.mozilla.org/en-US/docs/Mozilla/Firefox_OS/Building
 
 
-III. FLASH TO THE DEVICE
-=================================
+# 3. FLASH TO THE DEVICE
 
-## III.1. NOTES AND REQUIREMENTS
+## 3.1. NOTES AND REQUIREMENTS
 
 As we use the official flashing method of APC 8950 (which is different from the one by Mozilla),
 _flash.sh_ won't work. However, _flash.sh_ is still required to flash some specific modules, such
@@ -83,7 +80,7 @@ From here we'll need the following files:
 For flashing steps, we will need an SD card (with at least 1GB free storage, even though the actual
 firmware update package takes only about 200MB).
 
-## III.2. FLASHING STEPS
+## 3.2. FLASHING STEPS
 
 Here are the steps:
 
