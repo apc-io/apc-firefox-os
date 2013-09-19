@@ -1,4 +1,3 @@
-#			FIREFOX OS TO APC 8950 - BUILDING GUIDE
 
 I. INTRODUCTION
 =================================
