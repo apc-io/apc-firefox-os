@@ -1,7 +1,7 @@
 APC + Firefox OS
 ==============
 
-This is the official repository for Firefox OS running on APC. Firefox OS is currently under heavy development. To learn more about the current state, in general, visit [Mozilla's Development site](visit https://developer.mozilla.org/en/docs/Mozilla/Firefox_OS).
+This is the official repository for Firefox OS on APC. Firefox OS is currently under heavy development. To learn more about the current state of Firefox OS, visit [its MDN page](https://developer.mozilla.org/en/docs/Mozilla/Firefox_OS).
 
 ## Known Issues
 Here is a list of known issues, from the perspective of an end-user:
