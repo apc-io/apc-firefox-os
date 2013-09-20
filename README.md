@@ -14,6 +14,8 @@ Here is a list of known issues, from the perspective of an end-user:
 ## Get a Free APC
 To speed up the development, this project is giving away an APC to any developer who fixes an issue with the label ["Free APC"](https://github.com/apc-io/apc-firefox-os/issues?labels=Free+APC&state=open).
 
+If you're interested, just send us a pull request. When validated, we will send you a free APC.
+
 ## Build Instructions
 See [APC 8950 Building Guide](https://github.com/apc-io/apc-firefox-os/blob/master/building-guide.md)
 
