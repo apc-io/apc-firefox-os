@@ -1,4 +1,3 @@
-
 # 1. INTRODUCTION
 
 This document introduces step-by-step instructions to build Firefox OS for APC 8950.
@@ -8,8 +7,6 @@ Porting method comes from Mozilla. Details can be found at:
 
 Building prerequisites can be found at:
 * https://developer.mozilla.org/en-US/docs/Mozilla/Firefox_OS/Firefox_OS_build_prerequisites
-
-We are using Ubuntu 10.04 x64 for the build PC. Ubuntu 12.04 x64 is however proved to be working.
 
 Building process follows official building guidelines for Firefox OS, which can be found here:
 * https://developer.mozilla.org/en-US/docs/Mozilla/Firefox_OS/Preparing_for_your_first_B2G_build
