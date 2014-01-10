@@ -26,7 +26,7 @@ will not fetch everything, but only the B2G build system and setup utilities.
 
 **Notes**: 
 > * We use GitHub ssh access method, so please make sure to setup your ssh key first.
-> * The guide for setting up your ssh key can be found here: https://help.github.com/articles/generating-ssh-keys
+> * The guide to setting up your ssh key can be found here: https://help.github.com/articles/generating-ssh-keys
 
 To clone the repository, use git:
 
