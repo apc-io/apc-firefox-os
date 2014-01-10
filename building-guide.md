@@ -24,7 +24,7 @@ Assume that we already setup the build environment, below are the steps:
 The very first step, before you can start your first build, is to clone the B2G repository. This
 will not fetch everything, but only the B2G build system and setup utilities.
 
-**Note**: 
+**Notes**: 
 > * We use GitHub ssh access method, so please make sure to setup your ssh key before continue.
 > * The guide for setting up your ssh key can be found here: https://help.github.com/articles/generating-ssh-keys
 
