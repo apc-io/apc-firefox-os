@@ -36,7 +36,7 @@ After cloning (which should only take a minute with a fast connection), change i
 
 	$ cd B2G
 
-Switch to device specific branch:
+Switch to device specific branch (**apc8950-master**):
 
 	$ git checkout apc8950-master
 
