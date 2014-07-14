@@ -7,6 +7,7 @@ Porting method comes from Mozilla. Details can be found at:
 
 Building prerequisites can be found at:
 * https://developer.mozilla.org/en-US/docs/Mozilla/Firefox_OS/Firefox_OS_build_prerequisites
+* http://source.android.com/source/initializing.html#installing-the-jdk for JDK installation since we need it to support OTA
 
 Building process follows official building guidelines for Firefox OS, which can be found here:
 * https://developer.mozilla.org/en-US/docs/Mozilla/Firefox_OS/Preparing_for_your_first_B2G_build
@@ -73,9 +74,9 @@ as __Gecko__ or __Gaia__. For more details about using _flash.sh_, please see:
 
 ## 3.2. FIRMWARE PACKAGE
 
-Since we use the flashing method of APC 8880, we need to have its firmware package. The firmware package can be found at: __TO BE DONE__
+Since we use the flashing method of APC 8880, we need to have its firmware package. The firmware package can be found at: https://github.com/apc-io/vixen_firmware_update, it is the FirmwareInstall folder.
 
-This method also require creating a rootfs package in a special way. We will use a script for this. The script is *prepare_android_rootfs.sh* and can be found at: __TO BE DONE__
+This method also require creating a rootfs package in a special way. We will use a script for this. The script is *prepare_android_rootfs.sh* and can be found at: https://github.com/apc-io/vixen_firmware_update, inside __scripts__ folder.
 
 ## 3.3. PREPARE THE PACKAGE
 
